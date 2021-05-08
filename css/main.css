@@ -25,6 +25,16 @@ body {
 	text-indent: 2rem;
 }
 
+.paragraph {
+	text-indent: 2rem;
+}
+
+.badge-collection {
+	margin-left: 1rem;
+	padding-left: 1rem;
+	border-left: 0.35rem solid #5cb85c;
+}
+
 .banner {
 	height: 300px;
 	line-height: 300px;
