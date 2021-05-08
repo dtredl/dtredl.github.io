@@ -6,10 +6,13 @@ body {
 	background-color: #fff;
 }
 
-.citation {
+.title {
 	font-weight: bold;
-	margin-top: 2rem;
 	margin-bottom: 0;
+}
+
+.title:not(:nth-child(1)) {
+	margin-top: 2rem;
 }
 
 .description {
@@ -19,6 +22,35 @@ body {
 	border-left: 0.35rem solid #5cb85c;
 	padding-left: 1rem;
 	padding-top: 1rem;
-	text-align: justify;
 	text-indent: 2rem;
+}
+
+.banner {
+	height: 300px;
+	line-height: 300px;
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+	overflow: hidden;
+	text-align: center;
+}
+
+.banner h1 {
+	color: white;
+	text-shadow: 0 0 1rem #000;
+	line-height: 1.5;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+	.order-md-last {
+		-webkit-box-ordinal-group: 14;
+		-ms-flex-order: 13;
+		order: 13;
+	}
 }
