@@ -2,6 +2,20 @@ body {
 	background-color: #edb;
 }
 
+.pill {
+	border-radius: 0.8em 0.8em 0.8em 0.8em / 50% 50% 50% 50% ;
+}
+
+.bg-brand {
+	background-color: rgb(163,73,164);
+	background-image: radial-gradient(circle at 15% 25%, rgb(228,135,227) 0%, rgb(163,73,164) 80%);
+}
+
+.icon {
+	height: 1.5rem;
+	width: auto;
+}
+
 .container {
 	background-color: #fff;
 }
