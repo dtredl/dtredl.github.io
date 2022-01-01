@@ -1,0 +1,51 @@
+{
+    "articles":[
+        {
+            "id":2,
+            "title":"150 Years Reviewed",
+			"subtitle":"Review of graphic novel This Place: 150 Years Retold",
+			"date":"2021-12-31",
+            "tags":[
+				"anthology",
+				"book review",
+				"short stories",
+				"graphic novel",
+				"Indigenous creators",
+				"Canadian creators"
+			],
+			"search":[
+				"stories", "historical", "story", "short", "collection", "timeline", "indigenous", "canada", "canadian", "context", "graphic", "novel", "anthology", "creators", "book", "review", "this", "place", "150", "years", "retold", "chief", "billy", "assu"
+			]
+        },
+		{
+            "id":1,
+            "title":"The Close-up Conjuring of Neil Gaiman",
+            "subtitle":"Reviewing three collections of short stories",
+            "date":"2021-12-30",
+            "tags":[
+                "Neil Gaiman",
+                "book review",
+                "short stories",
+				"stories for children"
+            ],
+			"search":[
+				"stories", "short", "gaiman", "neil", "collection", "children", "people", "story", "fictions", "trigger", "warning", "book", "favorite", "read", "magic", "fragile", "things", "wonders", "review", "close-up", "conjuring", "conjurors"
+			]
+        },
+        {
+            "id":0,
+            "title":"Learning About Writing From Stephen King",
+            "subtitle":"A review of On Writing: A Memoir of the Craft",
+            "date":"2021-12-29",
+            "tags":[
+                "Stephen King",
+                "book review",
+				"non-fiction",
+                "writing"
+            ],
+			"search":[
+				"writing", "king", "writers", "stephen", "writer", "mr", "like", "reading", "read", "books", "memoir", "craft", "book", "process", "inspire", "biography", "non-fiction", "review", "learning"
+			]
+        }
+    ]
+}

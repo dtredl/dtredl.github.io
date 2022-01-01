@@ -1,0 +1,20 @@
+{
+    "title":"Learning About Writing From Stephen King",
+    "subtitle":"A review of On Writing: A Memoir of the Craft",
+    "date":"2021-12-29",
+    "paragraphs":[
+		"In 2021, I set a goal for myself to read a couple books that my friends and family recommended to me on the topic of writing. Stephen King’s largely autobiographical work, On Writing: A Memoir of the Craft, was at the top of that list.",
+		"Since the book describes itself as a memoir, it should come as no surprise to readers that the first section, a so-called curriculum vitae, is about Stephen King, himself. In his own words, it is an “attempt to show how one writer was formed.” Although Mr. King goes on to warn that writers can’t be made and that he cannot make a bad writer into a good writer, I have some doubts. His candor about his life’s journey toward writing and his brutal honesty about the writing process simultaneously inspire and inspire fear in aspiring authors. His explanation of the tools available to writers and general advice in the Toolbox and On Writing sections probably offer the most concrete help in honing your craft. Writers who have been able to put together a draft will also be grateful to know that Mr. King takes the reader through the editing process, giving a before and after version of a passage from his short story, 1408.",
+		"I found On Writing to be highly entertaining as well as instructive and I barely put it down once I started on it. In addition to the treasure trove of useful information for writers, I was impressed by the human connection that Stephen King brought to this, just like he does his works of fiction. For those who have a predilection for reading, and Mr. King would insist that all writers should, he even supplied reading lists of the sorts of books that he had been reading leading up to the different releases of On Writing. If you want to see what sort of writing inspires and influences an inimitable author like Stephen King, or if you just like to read, the lists included are definitely worth your time.",
+		"Overall, I would highly recommend this book for writers or big fans of Stephen King’s writing, either for unbeatable lessons or a peek behind the curtain."
+    ],
+	"tags":[
+		"Stephen King",
+		"book review",
+		"writing"
+	],
+	"links":[
+		{"name": "Stephen King", "link": "https://stephenking.com/"},
+		{"name": "On Writing: A Memoir of the Craft", "link": "https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html"}
+	]
+}
