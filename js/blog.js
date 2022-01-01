@@ -38,6 +38,11 @@ function setSearch(terms) {
 
 function addFilter(tag) {
 	setFilter(tag.toLowerCase());
+	if (gtag) {
+		gtag("event", "search", {
+			search_term: tag
+		});
+	}
 	updateHistory();
 	if (renderTarget) {
 		renderBlog();
@@ -56,6 +61,10 @@ function doSearch() {
 	search = blogSearch.value.split(' ');
 	if (!blogSearch.value) {
 		search = null;
+	} else if (gtag) {
+		gtag("event", "search", {
+			search_term: blogSearch.value
+		});
 	}
 	updateHistory();
 	if (renderTarget) {
@@ -109,8 +118,15 @@ function renderBlog() {
 				fetch('./blog/' + id + '.json').then(innerResponse => {
 					return innerResponse.json();
 				}).then(innerData => {
+					if (gtag) {
+						gtag("event", "select_content", {
+							content_type: "article",
+							item_id: id
+						});
+					}
 					var articleTitle = document.createElement("h1");
 					articleTitle.innerText = innerData.title;
+					document.title = "David Redl - " + innerData.title;
 					renderTarget.appendChild(articleTitle);
 					var articleSubTitle = document.createElement("h3");
 					articleSubTitle.innerText = innerData.subtitle;
