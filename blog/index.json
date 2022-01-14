@@ -1,6 +1,23 @@
 {
     "articles":[
         {
+            "id":3,
+            "title":"The State of Mindful Meditation",
+			"subtitle":"Reviewing Mindful Meditation by Sima Chowdhury",
+			"date":"2022-01-14",
+            "tags":[
+				"Sima Chowdhury",
+				"book review",
+				"non-fiction",
+				"mindfulness",
+				"meditation",
+				"Canadian creators"
+			],
+			"search":[
+				"meditation", "mindfulness", "mindful", "meditate", "chowdhury", "sima", "learned", "focus", "practice", "book", "booklet", "review", "non-fiction", "Canadian", "creators", "aspect", "experience", "health", "mental", "research", "recovery", "brain"
+			]
+        },
+		{
             "id":2,
             "title":"150 Years Reviewed",
 			"subtitle":"Review of graphic novel This Place: 150 Years Retold",
