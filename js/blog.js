@@ -131,6 +131,9 @@ function renderBlog() {
 					var articleSubTitle = document.createElement("h3");
 					articleSubTitle.innerText = innerData.subtitle;
 					renderTarget.appendChild(articleSubTitle);
+					var metaDescription = innerData.title + " - " + innerData.subtitle;
+					document.querySelector('meta[property="og:description"]').setAttribute("content", metaDescription);
+					document.querySelector('meta[name="twitter:description"]').setAttribute("content", innerData.title + " - " + innerData.subtitle);
 					var tagCollection = document.createElement("div");
 					tagCollection.setAttribute("class", "badge-collection");
 					for (var n = 0; n < innerData.tags.length; n++) {
