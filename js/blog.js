@@ -131,9 +131,22 @@ function renderBlog() {
 					var articleSubTitle = document.createElement("h3");
 					articleSubTitle.innerText = innerData.subtitle;
 					renderTarget.appendChild(articleSubTitle);
-					var metaDescription = innerData.title + " - " + innerData.subtitle;
-					document.querySelector('meta[property="og:description"]').setAttribute("content", metaDescription);
-					document.querySelector('meta[name="twitter:description"]').setAttribute("content", innerData.title + " - " + innerData.subtitle);
+					var description = innerData.title + " - " + innerData.subtitle;
+					document.querySelector('meta[name="description"]').remove()
+					var metaDescription = document.createElement('meta');
+					metaDescription.setAttribute("name", "description");
+					metaDescription.setAttribute("content", description);
+					document.head.appendChild(metaDescription);
+					document.querySelector('meta[property="og:description"]').remove();
+					var metaOgDescription = document.createElement('meta');
+					metaOgDescription.setAttribute("property", "og:description");
+					metaOgDescription.setAttribute("content", description);
+					document.head.appendChild(metaOgDescription);
+					document.querySelector('meta[name="twitter:description"]').remove();
+					var metaTwitterDescription = document.createElement('meta');
+					metaTwitterDescription.setAttribute("name", "twitter:description");
+					metaTwitterDescription.setAttribute("content", description);
+					document.head.appendChild(metaTwitterDescription);
 					var tagCollection = document.createElement("div");
 					tagCollection.setAttribute("class", "badge-collection");
 					for (var n = 0; n < innerData.tags.length; n++) {
