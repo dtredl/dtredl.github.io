@@ -1,6 +1,23 @@
 {
     "articles":[
         {
+            "id":5,
+            "title":"Wishing For More Wishes",
+			"subtitle":"A review of Careful of Thy Wishes by P.D. Workman",
+			"date":"2022-02-04",
+            "tags":[
+				"P.D. Workman",
+				"book review",
+				"mystery",
+				"supernatural",
+				"2022",
+				"Canadian creators"
+			],
+			"search":[
+				"p.d.", "workman", "book", "review", "mystery", "supernatural", "canadian", "creators", "wishing", "wishes", "careful", "thy", "reg", "rawlins", "cat", "series", "psychic", "investigator", "characters", "first", "year", "2022"
+			]
+        },
+		{
             "id":4,
             "title":"A Review of The King's Son by Darren Harris",
 			"subtitle":"The exciting work of a first-time author",
